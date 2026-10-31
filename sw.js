@@ -1,6 +1,6 @@
 // Focus Reader service worker: lets the app open offline and be installed.
 // Bump VERSION whenever you change these files so visitors get the update.
-const VERSION = 'focus-reader-v3';
+const VERSION = 'focus-reader-v4';
 const CORE = ['./', './index.html', './manifest.webmanifest', './icon.svg', './icon-192.png', './icon-512.png', './apple-touch-icon.png'];
 const LIBS = [
   'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js',
